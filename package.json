@@ -4,7 +4,8 @@
   "description": "a basic app to deploy",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "vercel --prod"
   },
   "keywords": [
     "node",
@@ -14,6 +15,7 @@
   "author": "Ramya Lakhani",
   "license": "ISC",
   "dependencies": {
+    "@vercel/node": "^5.0.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   }
